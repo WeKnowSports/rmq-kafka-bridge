@@ -67,6 +67,23 @@ Channel is an actual bridge between RMQ exchange and Kafka topic. Application ma
  ]}
 ```
 
+### Converters
+
+Brdige is able to convert incoming data from Rabbitmq to other formats before push messages to Kafka. You can find examples of converters in converter.erl
+
+Or, if don't need any data transformation, just put **converter:identity/1** in config: 
+
+
+```erlang
+        ...
+        from_decoder => {converter, identity},   
+        to_encoder => {converter, identity},
+        ...
+
+```
+
+
+
 ## Tests
 In order to run all tests run:
 ```
