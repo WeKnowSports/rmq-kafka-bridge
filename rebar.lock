@@ -1,0 +1,12 @@
+{"1.1.0",
+[{<<"brod">>,{pkg,<<"brod">>,<<"2.2.6">>},0},
+ {<<"kafka_protocol">>,{pkg,<<"kafka_protocol">>,<<"0.7.5">>},1},
+ {<<"snappyer">>,{pkg,<<"snappyer">>,<<"1.1.3-1.0.4">>},2},
+ {<<"supervisor3">>,{pkg,<<"supervisor3">>,<<"1.1.4">>},1}]}.
+[
+{pkg_hash,[
+ {<<"brod">>, <<"6D3B7DCCF13569DF238C4B0A7650AD6ADD2C7729ED877E6F49FED3EAE726A79D">>},
+ {<<"kafka_protocol">>, <<"5AEBD3CD94775CA4320F86404F11AAA2004DD00FE49AC6577E8EBF52B41CF615">>},
+ {<<"snappyer">>, <<"83EC59E7A9627CF5687096383C8BC508C7DB24127CD3CAEA04FE107BA3E47688">>},
+ {<<"supervisor3">>, <<"16B7244820ED423EAC8A11374BD1CBFF436222DBFD42A54A887FAD9582542417">>}]}
+].
